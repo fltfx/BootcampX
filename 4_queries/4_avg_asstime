@@ -1,0 +1,2 @@
+SELECT avg(completed_at - started_at) as avg_asstime
+FROM assistance_requests;
